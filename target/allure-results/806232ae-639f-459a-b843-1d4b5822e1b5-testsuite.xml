@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1528287387544" stop="1528287403086" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite1 : Test browser</name>
+    <title>Suite1 : Test browser</title>
+    <test-cases>
+        <test-case start="1528287396153" stop="1528287401871" status="passed">
+            <name>homePageTest[testuser_1,Test123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite1"/>
+                <label name="testGroup" value="Test browser"/>
+                <label name="testClass" value="RegistrationProcessTest"/>
+                <label name="testMethod" value="homePageTest"/>
+                <label name="host" value="DESKTOP-4UBEI9K"/>
+                <label name="thread" value="11068@DESKTOP-4UBEI9K.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1528287401875" stop="1528287402352" status="passed">
+            <name>homePageTest[testuser_2,test123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite1"/>
+                <label name="testGroup" value="Test browser"/>
+                <label name="testClass" value="RegistrationProcessTest"/>
+                <label name="testMethod" value="homePageTest"/>
+                <label name="host" value="DESKTOP-4UBEI9K"/>
+                <label name="thread" value="11068@DESKTOP-4UBEI9K.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
