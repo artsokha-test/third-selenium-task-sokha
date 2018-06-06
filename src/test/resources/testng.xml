@@ -5,7 +5,7 @@
     <!--<parameter name="browser" value="FIREFOX"/>-->
     <test name="Test browser" >
         <classes>
-            <class name="TestBrowser" />
+            <class name="RegistrationProcessTest" />
         </classes>
     </test>
 </suite>

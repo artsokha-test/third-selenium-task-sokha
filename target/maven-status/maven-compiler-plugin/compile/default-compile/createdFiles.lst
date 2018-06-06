@@ -1,0 +1,8 @@
+common\BrowserEnum.class
+pageobject_demoqa\HomePage.class
+pageobject_demoqa\SideMenu.class
+common\TestBase.class
+common\WebDriverFactory.class
+common\LogFactory.class
+pageobject_demoqa\RegistrationPage.class
+pageobject_demoqa\TopMenu.class
