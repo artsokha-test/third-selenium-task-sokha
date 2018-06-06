@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:test-suite start="1528294016675" stop="1528294062156" version="1.5.4" xmlns:ns2="urn:model.allure.qatools.yandex.ru">
+    <name>Suite1 : Test browser</name>
+    <title>Suite1 : Test browser</title>
+    <test-cases>
+        <test-case start="1528294041706" stop="1528294060219" status="passed">
+            <name>homePageTest[TestFirstName_1,TestLastName_1,222-333-444,TestUsername_1,test1@mail.com,This is test user 1,test123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite1"/>
+                <label name="testGroup" value="Test browser"/>
+                <label name="testClass" value="RegistrationProcessTest"/>
+                <label name="testMethod" value="homePageTest"/>
+                <label name="host" value="DESKTOP-4UBEI9K"/>
+                <label name="thread" value="7712@DESKTOP-4UBEI9K.main(1)"/>
+            </labels>
+        </test-case>
+        <test-case start="1528294060222" stop="1528294061388" status="passed">
+            <name>homePageTest[TestFirstName_2,TestLastName_2,222-333-444,TestUsername_2,test2@mail.com,This is test user 1,test123]</name>
+            <steps/>
+            <attachments/>
+            <labels>
+                <label name="testSuite" value="Suite1"/>
+                <label name="testGroup" value="Test browser"/>
+                <label name="testClass" value="RegistrationProcessTest"/>
+                <label name="testMethod" value="homePageTest"/>
+                <label name="host" value="DESKTOP-4UBEI9K"/>
+                <label name="thread" value="7712@DESKTOP-4UBEI9K.main(1)"/>
+            </labels>
+        </test-case>
+    </test-cases>
+    <labels>
+        <label name="framework" value="TestNG"/>
+        <label name="language" value="JAVA"/>
+    </labels>
+</ns2:test-suite>
