@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="45460" started-at="2018-06-06T14:06:56Z" finished-at="2018-06-06T14:07:42Z">
+  <suite name="Suite1" duration-ms="13441" started-at="2018-06-06T16:44:56Z" finished-at="2018-06-06T16:45:10Z">
     <groups>
     </groups>
-    <test name="Test browser" duration-ms="45460" started-at="2018-06-06T14:06:56Z" finished-at="2018-06-06T14:07:42Z">
+    <test name="Test browser" duration-ms="13441" started-at="2018-06-06T16:44:56Z" finished-at="2018-06-06T16:45:10Z">
       <class name="RegistrationProcessTest">
-        <test-method status="PASS" signature="beforeClass(common.BrowserEnum)[pri:0, instance:RegistrationProcessTest@58b71ceb]" name="beforeClass" is-config="true" duration-ms="24953" started-at="2018-06-06T17:06:56Z" finished-at="2018-06-06T17:07:21Z">
+        <test-method status="PASS" signature="beforeClass(common.BrowserEnum)[pri:0, instance:RegistrationProcessTest@20411320]" name="beforeClass" is-config="true" duration-ms="8325" started-at="2018-06-06T19:44:57Z" finished-at="2018-06-06T19:45:05Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeClass -->
-        <test-method status="PASS" signature="homePageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RegistrationProcessTest@58b71ceb]" name="homePageTest" duration-ms="18541" started-at="2018-06-06T17:07:21Z" data-provider="Authentication" finished-at="2018-06-06T17:07:40Z">
+        <test-method status="PASS" signature="homePageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RegistrationProcessTest@20411320]" name="homePageTest" duration-ms="2609" started-at="2018-06-06T19:45:05Z" data-provider="Authentication" finished-at="2018-06-06T19:45:07Z">
           <params>
             <param index="0">
               <value>
@@ -52,14 +52,14 @@
             </param>
             <param index="6">
               <value>
-                <![CDATA[test123]]>
+                <![CDATA[test1234]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
-        <test-method status="PASS" signature="homePageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RegistrationProcessTest@58b71ceb]" name="homePageTest" duration-ms="1167" started-at="2018-06-06T17:07:40Z" data-provider="Authentication" finished-at="2018-06-06T17:07:41Z">
+        <test-method status="PASS" signature="homePageTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:RegistrationProcessTest@20411320]" name="homePageTest" duration-ms="1632" started-at="2018-06-06T19:45:07Z" data-provider="Authentication" finished-at="2018-06-06T19:45:09Z">
           <params>
             <param index="0">
               <value>
@@ -73,7 +73,7 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[222-333-444]]>
+                <![CDATA[222-555-444]]>
               </value>
             </param>
             <param index="3">
@@ -93,14 +93,14 @@
             </param>
             <param index="6">
               <value>
-                <![CDATA[test123]]>
+                <![CDATA[test1234]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- homePageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:RegistrationProcessTest@58b71ceb]" name="tearDown" is-config="true" duration-ms="727" started-at="2018-06-06T17:07:41Z" finished-at="2018-06-06T17:07:42Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:RegistrationProcessTest@20411320]" name="tearDown" is-config="true" duration-ms="806" started-at="2018-06-06T19:45:09Z" finished-at="2018-06-06T19:45:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

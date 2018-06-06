@@ -11,12 +11,14 @@ public class RegistrationProcessTest extends TestBase{
                 .fillNameInput(sName)
                 .fillLastNameInput(sLastname)
                 .clickOnSingleRadiobutton()
+                .clickOnReadingCheckbox()
                 .fillPhoneInput(sPhone)
                 .fillUsernameInput(sUsername)
                 .fillEmailInput(sEmail)
                 .fillDescriptionInput(sDescription)
                 .fillPasswordInput(sPassword)
-                .fillConfirmPasswordInput(sPassword);
+                .fillConfirmPasswordInput(sPassword)
+                .clickOnSubmitButton();
 
 
     }

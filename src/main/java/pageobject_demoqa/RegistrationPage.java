@@ -4,13 +4,12 @@ import common.LogFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.Select;
 import org.slf4j.Logger;
 
 public class RegistrationPage extends SideMenu{
 
     private static final Logger LOG = LogFactory.getLogger(RegistrationPage.class);
-    Select select = new Select();
+//    Select select = new Select(driver);
 
     @FindBy(id = "name_3_firstname")
     protected WebElement nameInput;
@@ -21,8 +20,8 @@ public class RegistrationPage extends SideMenu{
     @FindBy(xpath = "//label[text()=\"Single\"]/following-sibling::*[1]")
     protected WebElement selectSingleRadioButton;
 
-    @FindBy(xpath = "//label[text()=\"Single\"]/following-sibling::*[1]")
-    protected WebElement selectDanceCheckbox;
+    @FindBy(xpath = "//label[text()=\"Reading\"]/following-sibling::*[1]")
+    protected WebElement selectReadingCheckbox;
 
     @FindBy(id = "phone_9")
     protected WebElement phoneInput;
@@ -41,6 +40,9 @@ public class RegistrationPage extends SideMenu{
 
     @FindBy(id = "confirm_password_password_2")
     protected WebElement confirmPasswordInput;
+
+    @FindBy(name = "pie_button")
+    protected WebElement submitButton;
 
 
 
@@ -67,7 +69,13 @@ public class RegistrationPage extends SideMenu{
 
     public RegistrationPage clickOnSingleRadiobutton() {
         selectSingleRadioButton.click();
-        LOG.info("Selected Martial status 'Single' radiobutton ")
+        LOG.info("Selected Martial status 'Single' radiobutton ");
+        return this;
+    }
+
+    public RegistrationPage clickOnReadingCheckbox(){
+        selectReadingCheckbox.click();
+        LOG.info("Selected Hobby 'Reading': ");
         return this;
     }
 
@@ -113,5 +121,10 @@ public class RegistrationPage extends SideMenu{
         return this;
     }
 
+    public RegistrationPage clickOnSubmitButton() {
+        submitButton.click();
+        LOG.info("Clicked submit button: ");
+        return this;
+    }
 
 }
